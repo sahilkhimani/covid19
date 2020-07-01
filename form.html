@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="icon" type="image/png" href="./favicon.png">
+</head>
+
+<body>
+  <div style="background-color:cornflowerblue;">
+    <nav style="color: blue; font-size: x-large; text-align: right;">
+      <h1 style="display: inline; float: left; ">Covid-19</h1>
+      <img src="./covid-19.png" alt="Covid-19" style="width: 100px; float: left;">
+      <a style="margin-left: 1rem" href="./index.html">About Covid-19</a>
+      <a style="margin-left: 1rem" href="./table.html">Cases</a>
+      <a style="margin-left: 1rem" href="./preventions.html">Preventions</a>
+      <a style="margin-left: 1rem" href="./symptoms.html">Symptoms</a>
+      <a style="margin-left: 1rem" href="./gallery.html">Gallery</a>
+      <a style="margin-left: 1rem" href="./form.html">Form</a>
+    </nav>
+  </div>
+  <div style="margin-top: 7%;">
+    <h2 style="text-align: center;">Covid-19 Diagnosis Form</h2>
+    <form style="width: 70%;  margin-left: 15%; margin-top: 5%; font-size: 1.5rem;">
+      <div style=" display: inline; ">
+        <label> Name:
+          <input type="text " name="Name" style="font-size: 1.5rem;">
+        </label>
+      </div>
+      <div style="display: inline;">
+        <label> Father Name:
+          <input type="text " name="Father Name" style="font-size: 1.5rem">
+        </label>
+      </div>
+      <br /><br />
+      <div style="display: inline;">
+        <label>Age:&nbsp;&nbsp;&nbsp;
+          <input type="text " name="age" style="font-size: 1.5rem;">
+        </label>
+      </div>
+      <div style="display: inline;">
+        <label> Contact No:&nbsp;&nbsp;
+          <input type="text" name="Contact" style="font-size: 1.5rem">
+        </label>
+      </div>
+      <br /><br />
+      <div style="display: inline;">
+        <label for="fever">Do you have Fever?</label>
+        <select name="fever" style="font-size: 1.25rem;">
+          <option value="No">No Fever At All</option>
+          <option value="mild">Low to Mild Fever</option>
+          <option value="high">High Fever</option>
+        </select>
+      </div>
+      
+      <div style="display: inline; margin-left:5%" >
+        <label for="cough">Do you have Cough?</label>
+        <select name="cough" style="font-size: 1.25rem;" >
+          <option value="No">No Coughing At All</option>
+          <option value="mild">Low to Mild Coughing</option>
+          <option value="high">Severe Coughing</option>
+        </select>
+      </div> 
+           <br /><br />
+      <div style="display: inline;">
+        <label for="breath">Are You Feeling difficulty in breath?</label>
+        <select name="breath" style="font-size: 1.25rem;">
+          <option value="No">No Difficulty At All</option>
+          <option value="mild">A little Difficulty</option>
+          <option value="high">Feeling Hard to Breath</option>
+        </select>
+      </div>
+      <br /><br />
+      <div  >
+        <label for="sneezing">Do you have Congestion or Runny Nose?</label>
+        <select name="sneezing" style="font-size: 1.25rem;" >
+          <option value="No">No Congestion At All</option>
+          <option value="mild">Low to Mild Sneezing</option>
+          <option value="high">Too much runny Nose with Sneezing</option>
+        </select>
+      </div>
+      <br /><br />
+      <div style="text-align: center;">
+        <input type="submit" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large;">
+      </div>
+    
+
+    </form>
+  </div>
+</body>
+
+</html>

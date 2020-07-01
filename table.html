@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail of Covid-19 cases</title>
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <style>
+    table {
+      font-family: noto sans, sans-serif;
+      font-size: 1.5rem;
+      text-align: right;
+    }
+
+    th {
+      text-align: center;
+      box-sizing: content-box;
+    }
+
+    body {
+      color: #363945;
+      background-color: cornsilk;
+      background-size: cover;
+    }
+
+    table tr:hover {
+      background-color: yellow;
+    }
+    table th{
+      background-color: mediumaquamarine;
+    }
+    table td:hover {
+      background-color: greenyellow;
+      color: fuchsia;
+    }
+    col:first-child {
+      background: #FF0
+    }
+    col:nth-child(2n+3) {
+      background: #CCC
+    }
+    col:nth-child(2n+2) {
+      background-color: lightskyblue
+    }
+  </style>
+</head>
+
+<body>
+  <div style="background-color:cornflowerblue;">
+    <nav style="color: blue; font-size: x-large; text-align: right;">
+      <h1 style="display: inline; float: left; ">Covid-19</h1>
+      <img src="./covid-19.png" alt="Covid-19" style="width: 100px; float: left;">
+      <a style="margin-left: 1rem" href="./index.html">About Covid-19</a>
+      <a style="margin-left: 1rem" href="./table.html">Cases</a>
+      <a style="margin-left: 1rem" href="./preventions.html">Preventions</a>
+      <a style="margin-left: 1rem" href="./symptoms.html">Symptoms</a>
+      <a style="margin-left: 1rem" href="./gallery.html">Gallery</a>
+      <a style="margin-left: 1rem" href="./form.html">Form</a>
+    </nav>
+  </div>
+  <div class="main">
+    <h1 style="text-align: center;">
+      Reported Cases and Deaths by Country
+    </h1>
+    <table style="border: 2px solid black; border-collapse: collapse; width: 90%; margin-left: 5%;">
+      <col><col><col><col><col><col><col>
+      <tr>
+
+        <th style="border: 2px solid black; ">
+          S.no
+        </th>
+        <th style="border: 2px solid black;">
+          Country Name
+        </th>
+        <th style="border: 2px solid black; ">
+          Total cases
+        </th>
+        <th style="border: 2px solid black; ">
+          Total Death
+        </th>
+        <th style="border: 2px solid black; ;">
+          Total Recovered
+        </th>
+        <th style="border: 2px solid black; ">
+          Active Cases
+        </th>
+        <th style="border: 2px solid black; ">
+          Total Tests
+        </th>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          1
+        </td>
+        <td style="border: 2px solid black; text-align: left; ">
+          USA
+        </td>
+        <td style="border: 2px solid black; ">
+          2,683,301
+        </td>
+        <td style="border: 2px solid black; ">
+          128,819
+        </td>
+        <td style="border: 2px solid black; ">
+          1,122,591
+        </td>
+        <td style="border: 2px solid black; ">
+          1,431,891
+        </td>
+        <td style="border: 2px solid black; ">
+          33,193,066
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          2
+        </td>
+        <td style="border: 2px solid black; text-align: left; ">
+          Brazil
+        </td>
+        <td style="border: 2px solid black; ">
+          1,370,488
+        </td>
+        <td style="border: 2px solid black; ">
+          58,385
+        </td>
+        <td style="border: 2px solid black; ">
+          757,462
+        </td>
+        <td style="border: 2px solid black; ">
+          554,641
+        </td>
+        <td style="border: 2px solid black; ">
+          3,070,447
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          3
+        </td>
+        <td style="border: 2px solid black; text-align: left;">
+          Russia
+        </td>
+        <td style="border: 2px solid black; ">
+          647,849
+        </td>
+        <td style="border: 2px solid black; ">
+          9,320
+        </td>
+        <td style="border: 2px solid black; ">
+          412,650
+        </td>
+        <td style="border: 2px solid black; ">
+          225,879
+        </td>
+        <td style="border: 2px solid black; ">
+          19,562,440
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          4
+        </td>
+        <td style="border: 2px solid black; text-align: left;">
+          India
+        </td>
+        <td style="border: 2px solid black; ">
+          568,536
+        </td>
+        <td style="border: 2px solid black; ">
+          16,919
+        </td>
+        <td style="border: 2px solid black; ">
+          335,915
+        </td>
+        <td style="border: 2px solid black; ">
+          215,702
+        </td>
+        <td style="border: 2px solid black; ">
+          8,608,654
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          5
+        </td>
+        <td style="border: 2px solid black; text-align: left;">
+          UK
+        </td>
+        <td style="border: 2px solid black; ">
+          311,965
+        </td>
+        <td style="border: 2px solid black; ">
+          43,575
+        </td>
+        <td style="border: 2px solid black; ">
+          N/A
+        </td>
+        <td style="border: 2px solid black; ">
+          N/A
+        </td>
+        <td style="border: 2px solid black; ">
+          9,290,215
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          6
+        </td>
+        <td style="border: 2px solid black; text-align: left;">
+          Spain
+        </td>
+        <td style="border: 2px solid black; ">
+          296,050
+        </td>
+        <td style="border: 2px solid black; ">
+          28,346
+        </td>
+        <td style="border: 2px solid black; ">
+          N/A
+        </td>
+        <td style="border: 2px solid black; ">
+          N/A
+        </td>
+        <td style="border: 2px solid black; ">
+          5,162,909
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          7
+        </td>
+        <td style="border: 2px solid black; text-align: left;">
+          Peru
+        </td>
+        <td style="border: 2px solid black; ">
+          282,365
+        </td>
+        <td style="border: 2px solid black; ">
+          9,504
+        </td>
+        <td style="border: 2px solid black; ">
+          171,159
+        </td>
+        <td style="border: 2px solid black; ">
+          101,702
+        </td>
+        <td style="border: 2px solid black; ">
+          1,661,324
+        </td>
+      </tr>
+
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          8
+        </td>
+        <td style="border: 2px solid black; text-align: left;">
+          Chile
+        </td>
+        <td style="border: 2px solid black; ">
+          275,999
+        </td>
+        <td style="border: 2px solid black; ">
+          5,575
+        </td>
+        <td style="border: 2px solid black; ">
+          236,154
+        </td>
+        <td style="border: 2px solid black; ">
+          34,270
+        </td>
+        <td style="border: 2px solid black; ">
+          1,096,443
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          9
+        </td>
+        <td style="border: 2px solid black; text-align: left;">
+          Italy
+        </td>
+        <td style="border: 2px solid black; ">
+          240,436
+        </td>
+        <td style="border: 2px solid black; ">
+          34,744
+        </td>
+        <td style="border: 2px solid black; ">
+          189,196
+        </td>
+        <td style="border: 2px solid black; ">
+          16,496
+        </td>
+        <td style="border: 2px solid black; ">
+          5,341,837
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 2px solid black; text-align: center;">
+          10
+        </td>
+        <td style="border: 2px solid black; text-align: left;">
+          Iran
+        </td>
+        <td style="border: 2px solid black; ">
+          227,662
+        </td>
+        <td style="border: 2px solid black; ">
+          10,817
+        </td>
+        <td style="border: 2px solid black; ">
+          188,758
+        </td>
+        <td style="border: 2px solid black; ">
+          28,087
+        </td>
+        <td style="border: 2px solid black; ">
+          1,666,587
+        </td>
+      </tr>
+
+
+    </table>
+  </div>
+  <h3 style="text-align: center;">
+    Figures courtsey of <a href= "https://www.worldometers.info/coronavirus" >worldometers</a>
+  </h3>
+</body>
+
+</html>
