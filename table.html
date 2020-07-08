@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detail of Covid-19 cases</title>
   <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="stylesheet" href="./style.css">
   <style>
     table {
       font-family: noto sans, sans-serif;
@@ -25,14 +26,14 @@
     }
 
     table tr:hover {
-      background-color: yellow;
+      background-color: rgb(255, 0, 255);
     }
     table th{
       background-color: mediumaquamarine;
     }
     table td:hover {
-      background-color: greenyellow;
-      color: fuchsia;
+      background-color: hotpink;
+      color: navajowhite;
     }
     col:first-child {
       background: #FF0
@@ -46,24 +47,35 @@
   </style>
 </head>
 
-<body>
-  <div style="background-color:cornflowerblue;">
+<body style="background: #ef32d9; background: -webkit-linear-gradient(to right, #89fffd, #ef32d9); background: linear-gradient(to right, #89fffd, #ef32d9);">
+  
+  <div style="background-color:lightblue; padding-top: 10px; padding-bottom: 20px;">
     <nav style="color: blue; font-size: x-large; text-align: right;">
-      <h1 style="display: inline; float: left; ">Covid-19</h1>
+      <h1 style=" float: left; ">Covid-19</h1>
       <img src="./covid-19.png" alt="Covid-19" style="width: 100px; float: left;">
-      <a style="margin-left: 1rem" href="./index.html">About Covid-19</a>
-      <a style="margin-left: 1rem" href="./table.html">Cases</a>
-      <a style="margin-left: 1rem" href="./preventions.html">Preventions</a>
-      <a style="margin-left: 1rem" href="./symptoms.html">Symptoms</a>
-      <a style="margin-left: 1rem" href="./gallery.html">Gallery</a>
-      <a style="margin-left: 1rem" href="./form.html">Form</a>
+      <a style="margin-left: 1rem" href="./index.html" class="hvr-bounce-to-bottom">About Covid-19</a>
+            <a style="margin-left: 1rem" href="./table.html" class="hvr-bounce-to-bottom">Cases</a>
+            <a style="margin-left: 1rem" href="./preventions.html" class="hvr-bounce-to-bottom">Preventions</a>
+            <a style="margin-left: 1rem" href="./symptoms.html" class="hvr-bounce-to-bottom">Symptoms</a>
+            <a style="margin-left: 1rem" href="./gallery.html" class="hvr-bounce-to-bottom">Gallery</a>
+            <a style="margin-left: 1rem" href="./form.html" class="hvr-bounce-to-bottom">Form</a> <br>
     </nav>
+    <p><br><br></p>
   </div>
-  <div class="main">
+  <div style="text-align: center; display: block;"> 
+    <h1>Coronavirus Cases:  </h1>
+    <h2>12,048,065 </h2>
+    <a href="#link">View by country</a>
+    <h1>Deaths:  </h1>
+    <h2>548,754  </h2>
+    <h1>Recovered:  </h1>
+    <h2>6,964,467 </h2>
+    </div>
+  <div id="link" style="background-color: lightblue; padding-top: 10px; padding-bottom: 20px;" class=" main hvr-radial-out">
     <h1 style="text-align: center;">
       Reported Cases and Deaths by Country
     </h1>
-    <table style="border: 2px solid black; border-collapse: collapse; width: 90%; margin-left: 5%;">
+    <table style="border: 2px solid black; border-collapse: collapse; width: 90%; margin-left: 5%;" >
       <col><col><col><col><col><col><col>
       <tr>
 
@@ -98,19 +110,19 @@
           USA
         </td>
         <td style="border: 2px solid black; ">
-          2,683,301
+          3,117,629
         </td>
         <td style="border: 2px solid black; ">
-          128,819
+          134,175
         </td>
         <td style="border: 2px solid black; ">
-          1,122,591
+          1,356,423
         </td>
         <td style="border: 2px solid black; ">
-          1,431,891
+          1,627,031
         </td>
         <td style="border: 2px solid black; ">
-          33,193,066
+          38,912,193
         </td>
       </tr>
 
@@ -122,19 +134,19 @@
           Brazil
         </td>
         <td style="border: 2px solid black; ">
-          1,370,488
+          1,683,738
         </td>
         <td style="border: 2px solid black; ">
-          58,385
+          67,113
         </td>
         <td style="border: 2px solid black; ">
-          757,462
+          1,117,922
         </td>
         <td style="border: 2px solid black; ">
-          554,641
+          498,703
         </td>
         <td style="border: 2px solid black; ">
-          3,070,447
+          4,359,978
         </td>
       </tr>
 
@@ -143,22 +155,22 @@
           3
         </td>
         <td style="border: 2px solid black; text-align: left;">
-          Russia
+          India
         </td>
         <td style="border: 2px solid black; ">
-          647,849
+          766,273
         </td>
         <td style="border: 2px solid black; ">
-          9,320
+          21,133
         </td>
         <td style="border: 2px solid black; ">
-          412,650
+          475,480
         </td>
         <td style="border: 2px solid black; ">
-          225,879
+          269,660
         </td>
         <td style="border: 2px solid black; ">
-          19,562,440
+          10,473,771
         </td>
       </tr>
 
@@ -167,22 +179,22 @@
           4
         </td>
         <td style="border: 2px solid black; text-align: left;">
-          India
+         Russia
         </td>
         <td style="border: 2px solid black; ">
-          568,536
+          700,792
         </td>
         <td style="border: 2px solid black; ">
-          16,919
+          10,667
         </td>
         <td style="border: 2px solid black; ">
-          335,915
+          472,511
         </td>
         <td style="border: 2px solid black; ">
-          215,702
+          217,614
         </td>
         <td style="border: 2px solid black; ">
-          8,608,654
+          21,790,705
         </td>
       </tr>
 
@@ -191,22 +203,22 @@
           5
         </td>
         <td style="border: 2px solid black; text-align: left;">
-          UK
+          Peru
         </td>
         <td style="border: 2px solid black; ">
-          311,965
+          309,278
         </td>
         <td style="border: 2px solid black; ">
-          43,575
+          10,952
         </td>
         <td style="border: 2px solid black; ">
-          N/A
+          200,938
         </td>
         <td style="border: 2px solid black; ">
-          N/A
+          97,388
         </td>
         <td style="border: 2px solid black; ">
-          9,290,215
+          1,821,328
         </td>
       </tr>
 
@@ -215,22 +227,22 @@
           6
         </td>
         <td style="border: 2px solid black; text-align: left;">
-          Spain
+          Chile
         </td>
         <td style="border: 2px solid black; ">
-          296,050
+          303,083
         </td>
         <td style="border: 2px solid black; ">
-          28,346
+          6,573
         </td>
         <td style="border: 2px solid black; ">
-          N/A
+          271,703
         </td>
         <td style="border: 2px solid black; ">
-          N/A
+          24,807
         </td>
         <td style="border: 2px solid black; ">
-          5,162,909
+          1,220,790
         </td>
       </tr>
 
@@ -239,22 +251,22 @@
           7
         </td>
         <td style="border: 2px solid black; text-align: left;">
-          Peru
+          Spain
         </td>
         <td style="border: 2px solid black; ">
-          282,365
+          299,593
         </td>
         <td style="border: 2px solid black; ">
-          9,504
+          28,396
         </td>
         <td style="border: 2px solid black; ">
-          171,159
+          N/A
         </td>
         <td style="border: 2px solid black; ">
-          101,702
+          N/A
         </td>
         <td style="border: 2px solid black; ">
-          1,661,324
+          5,734,599
         </td>
       </tr>
 
@@ -264,22 +276,22 @@
           8
         </td>
         <td style="border: 2px solid black; text-align: left;">
-          Chile
+          UK
         </td>
         <td style="border: 2px solid black; ">
-          275,999
+          286,979
         </td>
         <td style="border: 2px solid black; ">
-          5,575
+          44,517
         </td>
         <td style="border: 2px solid black; ">
-          236,154
+          N/A
         </td>
         <td style="border: 2px solid black; ">
-          34,270
+          N/A	
         </td>
         <td style="border: 2px solid black; ">
-          1,096,443
+          11,041,203
         </td>
       </tr>
 
@@ -288,22 +300,22 @@
           9
         </td>
         <td style="border: 2px solid black; text-align: left;">
-          Italy
+          Mexico
         </td>
         <td style="border: 2px solid black; ">
-          240,436
+          268,008
         </td>
         <td style="border: 2px solid black; ">
-          34,744
+          32,014
         </td>
         <td style="border: 2px solid black; ">
-          189,196
+          163,646
         </td>
         <td style="border: 2px solid black; ">
-          16,496
+          72,348
         </td>
         <td style="border: 2px solid black; ">
-          5,341,837
+          668,537
         </td>
       </tr>
 
@@ -315,19 +327,19 @@
           Iran
         </td>
         <td style="border: 2px solid black; ">
-          227,662
+          248,379
         </td>
         <td style="border: 2px solid black; ">
-          10,817
+          12,084
         </td>
         <td style="border: 2px solid black; ">
-          188,758
+          209,463
         </td>
         <td style="border: 2px solid black; ">
-          28,087
+          26,832
         </td>
         <td style="border: 2px solid black; ">
-          1,666,587
+          1,872,391
         </td>
       </tr>
 
